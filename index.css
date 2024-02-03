@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #000000
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.navbar_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-top:10px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+.img1{
+    height: 34px;
+    width: 117px;
+}
+.img3{
+    height:29px;
+    width: 198px;
+}
+.navPart1{
+    margin-left: 100px;
+}
+.navPart2{
+    margin-right: 100px;
+}
+.mainBody{
+    display:flex;
+}
+.body1{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF8FF;
+
+}
+.postBody{
+    background-color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    height: 250px;
+    width:450px;
+
+}
+textarea{
+    border: none;
+    outline: none;
+    width: 400px;
+}
+.postBody1{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.postBodyText{
+    font-weight:600;
+}
+.btnPost {
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #0041ca;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+.postButton{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+/* body 2 Your Feed */
+.body2{
+    margin:20px;
+}
+.heading{
+    font-weight: bold;
+}
+.feedPost{
+    padding: 20px;
+}
+.postedContent{
+    margin-bottom: 10px;
+    border: 1px solid rgb(232, 221, 221);
+    border-radius: 8px;
+    padding:20px;
+}
+.postedContentHeading{
+    display: flex;
+    align-items: center;
+}
+.profileImageHolder{
+    margin-right: 20px;
+}
+.name{
+    font-weight: bold ;
+}
+.email{
+    color:grey;
+}
+.mainContent{
+    display: flex;
+    margin-top: 20px;
+}
+.postedText{
+    width:40vw;
+}
