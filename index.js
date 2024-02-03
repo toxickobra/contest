@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             profileImageHolder.className = 'profileImageHolder';
 
             const profileImage = document.createElement('img');
-            profileImage.src = 'assets/profile_image.png';
+            profileImage.src = 'profile_image.png';
             profileImage.alt = 'img';
 
             profileImageHolder.appendChild(profileImage);
